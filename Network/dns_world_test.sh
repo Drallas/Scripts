@@ -2,7 +2,7 @@
 
 DOMAINS=("google.com" "baidu.cn" "vk.com" "nhk.or.jp" "bbc.co.uk" "globo.com" "yandex.ru" "lemonde.fr" "abc.net.au" "tweakers.net")
 SERVER1="192.168.1.3"
-SERVER2=("1.1.1.1" "8.8.8.8" "9.9.9.9")  # Add more servers here
+SERVER2=("1.1.1.1" "8.8.8.8" "9.9.9.9")  # Cloudflare, Google, Quad9
 ITERATIONS=3
 
 get_avg_time() {
